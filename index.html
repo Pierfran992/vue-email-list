@@ -17,8 +17,10 @@
 </head>
 <body>
     
-    <div id="myapp" class="container">
-        
+    <div id="myApp" class="container">
+        <ul class="email-list" v-show="emailList.length" v-for="(elem) in emailList">
+            <li>{{elem}}</li>
+        </ul>
     </div>
 
 

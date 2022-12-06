@@ -17,8 +17,13 @@ body {
     border: solid 2px #ffffff;
     border-radius: 30px;
     font-size: 25px;
+    text-align: center;
 }
 
 .email-list {
     list-style-type: circle;
+}
+
+.email-list > li {
+    margin-bottom: 10px;
 }

@@ -18,7 +18,8 @@
 <body>
     
     <div id="myApp" class="container">
-        <ul class="email-list" v-show="emailList.length === 10" v-for="(elem) in emailList">
+        <h1>Lista email random</h1>
+        <ul class="email-list" v-show="emailList.length === maxEmail" v-for="(elem) in emailList">
             <li>{{elem}}</li>
         </ul>
     </div>
